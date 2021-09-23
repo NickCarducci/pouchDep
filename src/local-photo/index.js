@@ -2,8 +2,6 @@ import React, { lazy } from "react";
 import PouchDB from "pouchdb";
 import upsert from "pouchdb-upsert";
 
-import "./index.css";
-
 const lazyImageStyle = {
   position: "relative",
   transition: ".3s ease-in",
